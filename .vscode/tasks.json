@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/home/vermosen/git/java-snippetslib:buildjava-snippets",
+			"script": "lib:build",
+			"description": "Assembles and tests this project.",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "java-snippets",
+			"buildFile": "/home/vermosen/git/java-snippets/build.gradle",
+			"rootProject": "java-snippets",
+			"projectFolder": "/home/vermosen/git/java-snippets",
+			"workspaceFolder": "/home/vermosen/git/java-snippets",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: lib:build"
+		}
+	]
+}
