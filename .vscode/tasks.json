@@ -4,7 +4,7 @@
 		{
 			"type": "gradle",
 			"id": "/home/vermosen/git/java-snippetslib:buildjava-snippets",
-			"script": "lib:build",
+			"script": "build",
 			"description": "Assembles and tests this project.",
 			"group": {
 				"kind": "build",
@@ -15,7 +15,7 @@
 			"rootProject": "java-snippets",
 			"projectFolder": "/home/vermosen/git/java-snippets",
 			"workspaceFolder": "/home/vermosen/git/java-snippets",
-			"args": "",
+			"args": "--info",
 			"javaDebug": false,
 			"problemMatcher": [
 				"$gradle"
