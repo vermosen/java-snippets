@@ -13,7 +13,6 @@ class ConfigurationTest {
     var root = "";
     var env = System.getenv();
 
-
     if (env.values().contains("TMP")) {
       root = env.get("TMP");
     } else if (env.values().contains("TEMP")) {
